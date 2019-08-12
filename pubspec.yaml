@@ -1,0 +1,53 @@
+name: education_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_svg:
+  flutter_icons:
+  cached_network_image:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/study.svg
+    - assets/images/design-tool.svg
+    - assets/images/dna.svg
+    - assets/images/flask.svg
+    - assets/images/microscope.svg
+    - assets/images/bookmark.svg
+    - assets/images/notification.svg
+    - assets/images/home.svg
+    - assets/images/controls.svg
+    - assets/images/user.svg
+
+  fonts:
+    - family: pop
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Poppins-Light.otf
+          weight: 300
+        - asset: assets/fonts/Poppins-ExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/Poppins-Thin.otf
+          weight: 100
